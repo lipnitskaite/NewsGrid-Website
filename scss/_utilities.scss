@@ -1,0 +1,130 @@
+.container {
+  max-width: $max-width;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.category {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+
+  &-sports {
+    background: $sports-color;
+  }
+
+  &-ent {
+    background: $ent-color;
+  }
+
+  &-tech {
+    background: $tech-color;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: $dark-color;
+  color: set-text-color($dark-color);
+  padding: 0.5rem 1.5rem;
+
+  &-light {
+    background: $light-color;
+  }
+  &-primary {
+    background: $primary-color;
+  }
+  &-secondary {
+    background: $secondary-color;
+  }
+  &-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+
+.bg {
+  &-dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+    h1,
+    h2,
+    h3,
+    a {
+      color: set-text-color($dark-color);
+    }
+  }
+  &-primary {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+    h1,
+    h2,
+    h3,
+    a {
+      color: set-text-color($primary-color);
+    }
+  }
+  &-secondary {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+    h1,
+    h2,
+    h3,
+    a {
+      color: set-text-color($secondary-color);
+    }
+  }
+}
+
+.py {
+  &-1 {
+    padding: 1.5rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+}
+
+.p {
+  &-1 {
+    padding: 1.5rem;
+  }
+  &-2 {
+    padding: 2rem;
+  }
+  &-3 {
+    padding: 3rem;
+  }
+}
+
+.l-heading {
+  font-size: 3rem;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+
+  a:hover {
+    color: $primary-color !important;
+  }
+}

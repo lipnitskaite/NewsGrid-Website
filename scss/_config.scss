@@ -1,0 +1,20 @@
+// Variables Root
+$max-width: 1100px;
+$primary-color: #c72727;
+$secondary-color: #f99500;
+$light-color: #f3f3f3;
+$dark-color: #333;
+
+// Variables Category
+$sports-color: #f99500;
+$ent-color: #a66bbe;
+$tech-color: #009cff;
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $dark-color;
+  } @else {
+    @return #fff;
+  }
+}
