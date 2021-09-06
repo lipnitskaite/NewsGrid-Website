@@ -1,8 +1,6 @@
 #main-nav .container {
   grid-template-columns: 1fr;
   grid-gap: 1.2rem; }
-  #main-nav .container .social {
-    display: none; }
   #main-nav .container ul,
   #main-nav .container .logo {
     justify-self: center; }
@@ -17,6 +15,8 @@
     grid-column: 1; }
 
 @media (max-width: 600px) {
+  #main-nav .container .social {
+    display: none; }
   #showcase .showcase-container,
   #home-articles .articles-container,
   #main-footer .footer-container {

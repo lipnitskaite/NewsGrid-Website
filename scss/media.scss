@@ -4,9 +4,6 @@
   .container {
     grid-template-columns: 1fr;
     grid-gap: 1.2rem;
-    .social {
-      display: none;
-    }
     ul,
     .logo {
       justify-self: center;
@@ -35,6 +32,13 @@
 }
 
 @media (max-width: 600px) {
+  #main-nav {
+    .container {
+      .social {
+        display: none;
+      }
+    }
+  }
   // Stack Grid Items
   #showcase .showcase-container,
   #home-articles .articles-container,
