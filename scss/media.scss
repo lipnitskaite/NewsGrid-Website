@@ -55,6 +55,12 @@
     > *:last-child {
       grid-column: 1;
     }
+
+    input,
+    button {
+      border-radius: 0;
+      -webkit-appearance: none;
+    }
   }
 
   .page-container {

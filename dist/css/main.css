@@ -229,7 +229,7 @@ h6 {
       width: 90%;
       padding: 0.5rem;
       margin-bottom: 0.5rem; }
-    #main-footer .footer-container input[type="submit"] {
+    #main-footer .footer-container button {
       width: 90%; }
     #main-footer .footer-container ul a {
       color: #fff; }
