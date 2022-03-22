@@ -1,6 +1,6 @@
-# NewsGrid-Website
+# NewsGrid Website
 
-A landing of the news-magazine. 
+A landing of the news magazine. 
 
 ### Tech stack:
 - HTML & CSS (including grid, flexbox, SASS)
