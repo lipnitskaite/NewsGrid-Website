@@ -1,10 +1,20 @@
-# NewsGrid Website
+# Проект: Новостной сайт NewsGrid
+## Обзор
+- Интро
+- Демонстрация лендинга
+- Технологии
 
-A landing of the news magazine. 
+## Интро
+Это проект новостного сайта NewsGrid. Адаптирован для устройств шириной в 320, 768, 1024 и 1280 пикселей.
 
-### Tech stack:
-- HTML & CSS (including grid, flexbox, SASS)
-
-### Landing demo:
+## Демонстрация лендинга
 https://blissful-allen-bc73bd.netlify.app/index.html
 
+## Используемые технологии
+- Стек: HTML & CSS
+- Препроцессор SASS
+- Flexbox и Grid Layout для создания сеток
+- Media Queries для адаптации
+
+## Статус проекта
+Планируется переписать проект с применением React.js
